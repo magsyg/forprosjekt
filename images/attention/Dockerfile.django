@@ -1,0 +1,26 @@
+FROM ubuntu:22.04
+EXPOSE 8090
+RUN apt-get update
+RUN apt-get install -y openjdk-8-jdk
+RUN apt-get install -y ant
+RUN apt-get clean
+RUN rm -rf /var/lib/apt/lists/
+RUN rm -rf /var/cache/oracle-jdk8-installer
+
+RUN apt-get update
+RUN apt-get install -y python3-pip git wget lshw dmidecode netcat curl
+RUN ulimit -n 65536
+
+RUN mkdir /benchmarks
+WORKDIR /benchmarks
+COPY . /benchmarks
+RUN mkdir /dev/mem
+
+ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
+RUN export JAVA_HOME
+
+RUN pip3 install click pyyaml tabulate pandas
+
+RUN python3 benchpress_cli.py install django_workload_default
+# RUN python3 benchpress_cli.py run django_workload_default -r standalone
+# cassandra wont run, no error

@@ -1,0 +1,777 @@
+/benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:571:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   571 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:585:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   585 |           *--valBufBegin = 'x';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:600:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   600 |           *--valBufBegin = 'X';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:571:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   571 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:585:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   585 |           *--valBufBegin = 'x';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:600:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   600 |           *--valBufBegin = 'X';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:571:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   571 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 [167/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/ImmediateFileWriter.cpp.o
+1444.4 [168/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/Init.cpp.o
+1444.4 [169/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogHandlerConfig.cpp.o
+1444.4 [170/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogCategory.cpp.o
+1444.4 [171/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/GlogStyleFormatter.cpp.o
+1444.4 In file included from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format.h:496,
+1444.4                  from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/logging/GlogStyleFormatter.cpp:19:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h: In function ‘void folly::FormatValue<T, typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value))>::type>::doFormat(folly::FormatArg&, FormatCallback&) const [with FormatCallback = folly::BaseFormatter<folly::Formatter<false, const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int>, false, const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int>::appendTo<std::__cxx11::basic_string<char> >(std::__cxx11::basic_string<char>&) const::<lambda(folly::StringPiece)>; T = int]’:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:585:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   585 |           *--valBufBegin = 'x';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:600:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   600 |           *--valBufBegin = 'X';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:571:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   571 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h: In function ‘void folly::FormatValue<T, typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value))>::type>::doFormat(folly::FormatArg&, FormatCallback&) const [with FormatCallback = folly::BaseFormatter<folly::Formatter<false, const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int>, false, const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int>::appendTo<std::__cxx11::basic_string<char> >(std::__cxx11::basic_string<char>&) const::<lambda(folly::StringPiece)>; T = char]’:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h: In member function ‘typename std::enable_if<(K < folly::BaseFormatter<Derived, containerMode, Args>::valueCount)>::type folly::BaseFormatter<Derived, containerMode, Args>::doFormatFrom(size_t, folly::FormatArg&, Callback&) const [with long unsigned int K = 7; Callback = folly::BaseFormatter<folly::Formatter<false, const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int>, false, const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int>::appendTo<std::__cxx11::basic_string<char> >(std::__cxx11::basic_string<char>&) const::<lambda(folly::StringPiece)>; Derived = folly::Formatter<false, const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int>; bool containerMode = false; Args = {const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int}]’:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:585:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   585 |           *--valBufBegin = 'x';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:600:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   600 |           *--valBufBegin = 'X';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:571:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   571 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:585:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   585 |           *--valBufBegin = 'x';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:600:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   600 |           *--valBufBegin = 'X';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:571:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   571 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h: In member function ‘void folly::BaseFormatter<Derived, containerMode, Args>::operator()(Output&) const [with Output = folly::BaseFormatter<folly::Formatter<false, const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int>, false, const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int>::appendTo<std::__cxx11::basic_string<char> >(std::__cxx11::basic_string<char>&) const::<lambda(folly::StringPiece)>; Derived = folly::Formatter<false, const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int>; bool containerMode = false; Args = {const char&, int, int&, int&, int&, int&, long int, long unsigned int, folly::Range<const char*>&, unsigned int}]’:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:585:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   585 |           *--valBufBegin = 'x';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:600:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   600 |           *--valBufBegin = 'X';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:571:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   571 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 [172/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogConfig.cpp.o
+1444.4 [173/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogName.cpp.o
+1444.4 [174/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogMessage.cpp.o
+1444.4 [175/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogLevel.cpp.o
+1444.4 [176/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogStream.cpp.o
+1444.4 [177/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/RateLimiter.cpp.o
+1444.4 [178/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogStreamProcessor.cpp.o
+1444.4 [179/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/ObjectToString.cpp.o
+1444.4 [180/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/Logger.cpp.o
+1444.4 [181/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/StreamHandlerFactory.cpp.o
+1444.4 [182/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/StandardLogHandler.cpp.o
+1444.4 [183/250] Building CXX object CMakeFiles/folly_base.dir/folly/memory/detail/MallocImpl.cpp.o
+1444.4 [184/250] Building CXX object CMakeFiles/folly_base.dir/folly/memory/SanitizeLeak.cpp.o
+1444.4 [185/250] Building CXX object CMakeFiles/folly_base.dir/folly/net/NetOps.cpp.o
+1444.4 [186/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Builtins.cpp.o
+1444.4 [187/250] Building CXX object CMakeFiles/folly_base.dir/folly/net/detail/SocketFileDescriptorMap.cpp.o
+1444.4 [188/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Dirent.cpp.o
+1444.4 [189/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Fcntl.cpp.o
+1444.4 [190/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/StandardLogHandlerFactory.cpp.o
+1444.4 [191/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Malloc.cpp.o
+1444.4 [192/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Libgen.cpp.o
+1444.4 [193/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/PThread.cpp.o
+1444.4 [194/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Sched.cpp.o
+1444.4 [195/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/xlog.cpp.o
+1444.4 [196/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/OpenSSL.cpp.o
+1444.4 [197/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Semaphore.cpp.o
+1444.4 [198/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Stdlib.cpp.o
+1444.4 [199/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Stdio.cpp.o
+1444.4 [200/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysFile.cpp.o
+1444.4 [201/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/String.cpp.o
+1444.4 [202/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Sockets.cpp.o
+1444.4 [203/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysMman.cpp.o
+1444.4 [204/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysResource.cpp.o
+1444.4 [205/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysStat.cpp.o
+1444.4 [206/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysTime.cpp.o
+1444.4 [207/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Unistd.cpp.o
+1444.4 [208/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Time.cpp.o
+1444.4 [209/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysMembarrier.cpp.o
+1444.4 [210/250] Building CXX object CMakeFiles/folly_base.dir/folly/memory/ThreadCachedArena.cpp.o
+1444.4 [211/250] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysUio.cpp.o
+1444.4 [212/250] Building CXX object CMakeFiles/folly_base.dir/folly/memory/MallctlHelper.cpp.o
+1444.4 In file included from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format.h:496,
+1444.4                  from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/memory/MallctlHelper.cpp:18:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h: In function ‘void folly::FormatValue<T, typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value))>::type>::doFormat(folly::FormatArg&, FormatCallback&) const [with FormatCallback = folly::BaseFormatter<folly::Formatter<false, const char*&, folly::basic_fbstring<char, std::char_traits<char>, std::allocator<char>, folly::fbstring_core<char> >, int&>, false, const char*&, folly::basic_fbstring<char, std::char_traits<char>, std::allocator<char>, folly::fbstring_core<char> >, int&>::appendTo<std::__cxx11::basic_string<char> >(std::__cxx11::basic_string<char>&) const::<lambda(folly::StringPiece)>; T = char]’:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h: In member function ‘void folly::BaseFormatter<Derived, containerMode, Args>::operator()(Output&) const [with Output = folly::BaseFormatter<folly::Formatter<false, const char*&, folly::basic_fbstring<char, std::char_traits<char>, std::allocator<char>, folly::fbstring_core<char> >, int&>, false, const char*&, folly::basic_fbstring<char, std::char_traits<char>, std::allocator<char>, folly::fbstring_core<char> >, int&>::appendTo<std::__cxx11::basic_string<char> >(std::__cxx11::basic_string<char>&) const::<lambda(folly::StringPiece)>; Derived = folly::Formatter<false, const char*&, folly::basic_fbstring<char, std::char_traits<char>, std::allocator<char>, folly::fbstring_core<char> >, int&>; bool containerMode = false; Args = {const char*&, folly::basic_fbstring<char, std::char_traits<char>, std::allocator<char>, folly::fbstring_core<char> >, int&}]’:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:585:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   585 |           *--valBufBegin = 'x';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:600:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   600 |           *--valBufBegin = 'X';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:571:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   571 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 [213/250] Building CXX object CMakeFiles/folly_base.dir/folly/ssl/Init.cpp.o
+1444.4 [214/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogConfigParser.cpp.o
+1444.4 [215/250] Building CXX object CMakeFiles/folly_base.dir/folly/ssl/detail/SSLSessionImpl.cpp.o
+1444.4 [216/250] Building CXX object CMakeFiles/folly_base.dir/folly/stats/QuantileEstimator.cpp.o
+1444.4 [217/250] Building CXX object CMakeFiles/folly_base.dir/folly/ssl/detail/OpenSSLThreading.cpp.o
+1444.4 [218/250] Building CXX object CMakeFiles/folly_base.dir/folly/ssl/OpenSSLHash.cpp.o
+1444.4 In file included from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format.h:496,
+1444.4                  from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/ssl/OpenSSLHash.cpp:19:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h: In function ‘void folly::FormatValue<T, typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value))>::type>::doFormat(folly::FormatArg&, FormatCallback&) const [with FormatCallback = folly::BaseFormatter<folly::Formatter<false, long unsigned int&, long unsigned int>, false, long unsigned int&, long unsigned int>::appendTo<std::__cxx11::basic_string<char> >(std::__cxx11::basic_string<char>&) const::<lambda(folly::StringPiece)>; T = long unsigned int]’:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:585:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   585 |           *--valBufBegin = 'x';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:600:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   600 |           *--valBufBegin = 'X';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:571:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   571 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 [219/250] Building CXX object CMakeFiles/folly_base.dir/folly/ssl/OpenSSLCertUtils.cpp.o
+1444.4 [220/250] Building CXX object CMakeFiles/folly_base.dir/folly/stats/detail/DoubleRadixSort.cpp.o
+1444.4 [221/250] Building CXX object CMakeFiles/folly_base.dir/folly/stats/TDigest.cpp.o
+1444.4 [222/250] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/SanitizeThread.cpp.o
+1444.4 [223/250] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/AtomicNotification.cpp.o
+1444.4 [224/250] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/AsymmetricMemoryBarrier.cpp.o
+1444.4 [225/250] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/WaitOptions.cpp.o
+1444.4 [226/250] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/ParkingLot.cpp.o
+1444.4 [227/250] Building CXX object CMakeFiles/folly_base.dir/folly/system/HardwareConcurrency.cpp.o
+1444.4 [228/250] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/detail/Hardware.cpp.o
+1444.4 [229/250] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/Rcu.cpp.o
+1444.4 [230/250] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/DistributedMutex.cpp.o
+1444.4 [231/250] Building CXX object CMakeFiles/folly_base.dir/folly/system/ThreadName.cpp.o
+1444.4 [232/250] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LoggerDB.cpp.o
+1444.4 [233/250] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/Hazptr.cpp.o
+1444.4 [234/250] Building CXX object CMakeFiles/folly_base.dir/folly/system/Shell.cpp.o
+1444.4 [235/250] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/test/SocketPair.cpp.o
+1444.4 [236/250] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/test/TimeUtil.cpp.o
+1444.4 [237/250] Building CXX object folly/experimental/exception_tracer/CMakeFiles/folly_exception_tracer_base.dir/StackTrace.cpp.o
+1444.4 [238/250] Building CXX object folly/experimental/exception_tracer/CMakeFiles/folly_exception_tracer.dir/ExceptionStackTraceLib.cpp.o
+1444.4 [239/250] Building CXX object folly/experimental/exception_tracer/CMakeFiles/folly_exception_tracer.dir/ExceptionTracerLib.cpp.o
+1444.4 [240/250] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/test/ScopedBoundPort.cpp.o
+1444.4 [241/250] Building CXX object CMakeFiles/folly_base.dir/folly/system/MemoryMapping.cpp.o
+1444.4 In file included from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format.h:496,
+1444.4                  from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/system/MemoryMapping.cpp:26:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h: In member function ‘void folly::BaseFormatter<Derived, containerMode, Args>::operator()(Output&) const [with Output = folly::operator<< <char, false, long int&, long unsigned int&>(std::basic_ostream<char>&, const folly::Formatter<false, long int&, long unsigned int&>&)::<lambda(folly::StringPiece)>; Derived = folly::Formatter<false, long int&, long unsigned int&>; bool containerMode = false; Args = {long int&, long unsigned int&}]’:
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:585:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   585 |           *--valBufBegin = 'x';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:600:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   600 |           *--valBufBegin = 'X';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:571:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   571 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:585:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   585 |           *--valBufBegin = 'x';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:586:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   586 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:600:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   600 |           *--valBufBegin = 'X';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:601:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   601 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:571:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   571 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   616 |           *--valBufBegin = presentation; // 0b or 0B
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:617:26: warning: array subscript -2 is outside array bounds of ‘char [69]’ [-Warray-bounds]
+1444.4   617 |           *--valBufBegin = '0';
+1444.4       |           ~~~~~~~~~~~~~~~^~~~~
+1444.4 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:492:10: note: while referencing ‘valBuf’
+1444.4   492 |     char valBuf[valBufSize];
+1444.4       |          ^~~~~~
+1444.4 [242/250] Building CXX object folly/experimental/exception_tracer/CMakeFiles/folly_exception_tracer_base.dir/ExceptionTracer.cpp.o
+1444.4 [243/250] Building CXX object folly/experimental/exception_tracer/CMakeFiles/folly_exception_counter.dir/ExceptionCounterLib.cpp.o
+1444.4 [244/250] Building CXX object folly/CMakeFiles/follybenchmark.dir/Benchmark.cpp.o
+1444.4 [245/250] Linking CXX static library libfolly.a
+1444.4 [246/250] Linking CXX static library folly/libfollybenchmark.a
+1444.4 [247/250] Linking CXX static library folly/experimental/exception_tracer/libfolly_exception_tracer_base.a
+1444.4 [248/250] Linking CXX static library folly/experimental/exception_tracer/libfolly_exception_tracer.a
+1444.4 [249/250] Linking CXX static library folly/experimental/exception_tracer/libfolly_exception_counter.a
+1444.4 [250/250] Linking CXX static library libfolly_test_util.a
+1444.4 ninja: build stopped: subcommand failed.
+------

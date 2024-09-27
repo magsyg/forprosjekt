@@ -1,0 +1,31 @@
+FROM ubuntu:22.04
+
+RUN apt-get update
+RUN apt-get install -y openjdk-8-jdk
+RUN apt-get install -y ant
+RUN apt-get clean
+RUN rm -rf /var/lib/apt/lists/
+RUN rm -rf /var/cache/oracle-jdk8-installer
+
+RUN apt-get update
+RUN apt-get install -y python3-pip git wget lshw dmidecode sudo
+
+RUN mkdir /benchmarks
+RUN mkdir /benchmarks/flash32
+RUN git clone https://github.com/facebookresearch/DCPerf-datasets /flash32
+WORKDIR /benchmarks
+COPY . /benchmarks
+# Cant get this to work
+
+ENV CONFIG_BLK_DEV_NVME=y
+ENV CONFIG_NVME_CORE=y
+ENV CONFIG_NVME_MULTIPATH=y
+ENV CONFIG_NVME_FABRICS=m
+ENV CONFIG_NVME_TARGET=m
+ENV CONFIG_NVME_TARGET_LOOP=m
+ENV CONFIG_NVME_TARGET_TCP=m
+ENV CONFIG_NVME_TCP=m
+
+RUN pip3 install click pyyaml tabulate pandas
+
+#RUN python3 benchpress_cli.py install spark_standalone_remote

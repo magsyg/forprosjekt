@@ -1,0 +1,26 @@
+FROM ubuntu:22.04
+
+RUN apt-get update
+RUN apt-get install -y python3-pip git wget lshw dmidecode sudo zstd
+RUN ulimit -n 65536
+RUN mkdir /benchmarks
+
+WORKDIR /benchmarks
+COPY . /benchmarks
+RUN mkdir /dev/mem
+
+ENV DEBIAN_FRONTEND=noninteractive 
+
+# Install HHVM
+RUN apt-get update
+RUN apt-get install -y software-properties-common apt-transport-https
+RUN apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xB4112585D386EB94
+
+RUN add-apt-repository 'deb https://dl.hhvm.com/universal release main'
+RUN apt-get update
+RUN apt-get install -y hhvm
+
+RUN pip3 install click pyyaml tabulate pandas
+RUN python3 benchpress_cli.py install oss_performance_mediawiki_mlp
+#RUN --security=insecure python3 benchpress_cli.py install oss_performance_mediawiki_mlp
+# docker-container driver 

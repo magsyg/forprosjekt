@@ -1,0 +1,22 @@
+FROM ubuntu:22.04
+
+RUN apt-get update
+RUN apt-get install -y python3-pip git wget lshw dmidecode sudo zstd
+RUN ulimit -n 65536
+RUN mkdir /benchmarks
+WORKDIR /benchmarks
+COPY . /benchmarks
+RUN mkdir /dev/mem
+
+RUN pip3 install click pyyaml tabulate pandas
+
+RUN python3 benchpress_cli.py install feedsim_autoscale 
+
+#875.2 FAILED: folly-prefix/src/folly-stamp/folly-build staging/usr/local/lib/libfolly.a
+#875.2 cd /benchmarks/benchmarks/feedsim/src/build/third_party/folly && cmake --build . && /benchmarks/benchmarks/feedsim/third_party/cmake-3.14.5/staging/bin/cmake -E touch /benchmarks/benchmarks/feedsim/src/build/folly-prefix/src/folly-stamp/folly-build
+#875.2 In file included from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format.h:496,
+#875.2                  from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/dynamic-inl.h:23,
+#875.2                  from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/dynamic.h:796,
+#875.2                  from /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/dynamic.cpp:17:
+#875.2 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h: In member function ‘void folly::BaseFormatter<Derived, containerMode, Args>::operator()(Output&) const [with Output = folly::BaseFormatter<folly::Formatter<false, folly::Range<const char*>&>, false, folly::Range<const char*>&>::appendTo<std::__cxx11::basic_string<char> >(std::__cxx11::basic_string<char>&) const::<lambda(folly::StringPiece)>; Derived = folly::Formatter<false, folly::Range<const char*>&>; bool containerMode = false; Args = {folly::Range<const char*>&}]’:
+# 875.2 /benchmarks/benchmarks/feedsim/src/third_party/folly/folly/Format-inl.h:616:26: warning: array subscript -1 is outside array bounds of ‘char [69]’ [-Warray-bounds]
